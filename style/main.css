@@ -8,6 +8,13 @@ html {
   box-sizing: inherit; /*загуглить*/
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   width: 100%;
   max-width: 1366px;
@@ -40,7 +47,7 @@ nav {
 }
 
 .logo img {
-  margin: 34px 12px 34px 100px;
+  margin: 34px 12px 34px 100px; 
 }
 
 .register img {
