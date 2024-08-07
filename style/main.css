@@ -1,11 +1,11 @@
 html {
-  box-sizing: border-box; /*загуглить*/
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit; /*загуглить*/
+  box-sizing: inherit;
 }
 
 .wrapper {
@@ -47,7 +47,7 @@ nav {
 }
 
 .logo img {
-  margin: 34px 12px 34px 100px; 
+  margin: 34px 12px 34px 100px;
 }
 
 .register img {
@@ -87,13 +87,13 @@ a:hover {
   color: #2c36f2;
 }
 
-.top_main {
+main {
   display: flex;
-  justify-content: flex-start;
-  align-content: center;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   max-width: 1366px;
-  position: relative;
   height: 400px;
   background-image: url(../images/top_main_picture.png);
   background-color: rgba(44, 54, 242, 0.5);
@@ -102,27 +102,36 @@ a:hover {
   background-repeat: no-repeat;
 }
 
-.top_main::after {
-  opacity: 0.5;
+.main_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: centerF;
 }
 
-.top_main_title {
-  justify-content: flex-start;
-  position: absolute;
+.main_text h2 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+  margin: 25px;
 }
 
-.top_main_text {
-  position: absolute;
-  align-self: center;
+.main_text h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 29px;
 }
 
 .btn {
-  position: absolute;
-  justify-content: flex-start;
-  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  width: 234px;
+  height: 53px;
+  align-items: center;
+  position: relative;
   text-align: center;
   text-decoration: none;
   background: #f6f7ff;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
 }
