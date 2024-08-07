@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box; /*загуглить*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /*загуглить*/
+}
+
+header {
+  width: 100%;
+  max-width: 1366px;
+  position: fixed;
+  font-family: "Roboto", sans-serif;
+  background: #f6f7ff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  margin: 8px 80px 4px;
+}
+
+.menu {
+  position: relative;
+}
+
+.register {
+  position: relative;
+}
+
+.logo img {
+  padding: 4px 13px 3px;
+}
+
+.section h1 {
+  padding: 80px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 1ms;
+  color: #2c36f2;
+}
