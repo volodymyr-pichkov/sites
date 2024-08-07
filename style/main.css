@@ -13,12 +13,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   width: 100%;
   max-width: 1366px;
-  font-family: "Roboto", sans-serif;
   background: #f6f7ff;
 }
 
@@ -106,14 +106,14 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: centerF;
+  align-items: center;
 }
 
 .main_text h2 {
   font-weight: 700;
   font-size: 54px;
   line-height: 64px;
-  margin: 25px;
+  margin: 0;
 }
 
 .main_text h3 {
