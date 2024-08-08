@@ -80,6 +80,11 @@ ul {
   list-style: none;
 }
 
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
 a {
   text-decoration: none;
 }
@@ -138,10 +143,6 @@ footer {
   max-width: 1366px;
   height: 224px;
   background-color: #f6f7ff;
-}
-
-.service {
-  display: flex;
 }
 
 .footer h2 {
