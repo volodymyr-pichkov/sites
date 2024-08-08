@@ -127,17 +127,16 @@ a {
   align-items: center;
 }
 
-.support {
-}
-.call {
-}
-.social {
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
   display: flex;
   position: relative;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 1366px;
