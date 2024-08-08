@@ -105,8 +105,7 @@ main {
 .main_text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .main_text h2 {
@@ -120,7 +119,6 @@ main {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  margin: 29px;
 }
 
 .btn {
