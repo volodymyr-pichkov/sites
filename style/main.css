@@ -28,6 +28,13 @@ nav {
   margin-right: 80px;
 }
 
+.logo2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 11px;
+}
+
 .menu {
   margin-right: 185px;
 }
@@ -41,6 +48,11 @@ nav {
 
 .logo img {
   margin: 34px 12px 34px 100px;
+}
+
+.logo2 img {
+  position: relative;
+  margin: 7px 11px 2px 101px;
 }
 
 .register img {
@@ -65,9 +77,6 @@ ul {
   font-size: 16px;
   line-height: 18.75px;
   column-gap: 38px;
-}
-
-li {
   list-style: none;
 }
 
@@ -106,7 +115,21 @@ a {
   background: #ffffff;
 }
 
-.wrapper_footer {
+.geoposition {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.support {
+}
+.call {
+}
+.social {
+}
+
+footer {
   display: flex;
   position: relative;
   justify-content: space-evenly;
@@ -114,20 +137,14 @@ a {
   width: 100%;
   max-width: 1366px;
   height: 224px;
-  background: #f6f7ff;
-}
-
-.geoposition {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-footer {
   background-color: #f6f7ff;
 }
 
-.wrapper_footer h2 {
+.service {
+  display: flex;
+}
+
+.footer h2 {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
