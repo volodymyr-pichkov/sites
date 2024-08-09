@@ -148,7 +148,7 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  margin: 50px 40px 87px 98px;
+  margin: 60px 40px 87px 98px;
 }
 
 .logo2 {
@@ -166,35 +166,18 @@ a {
 
 .geoposition p {
   position: relative;
-  margin: 20px 0px 0px 0px;
+  margin: 0px;
   color: #707c87;
 }
 
 .service {
   position: relative;
-  margin: 95px 89px 60px 0px;
+  margin: 60px 89px 60px 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
   color: #707c87;
   white-space: nowrap;
-}
-
-.service_services {
-  position: relative;
-  margin-bottom: 20px;
-}
-.service_converter {
-  position: relative;
-  margin-bottom: 20px;
-}
-.service_contacts {
-  position: relative;
-  margin-bottom: 20px;
-}
-.service_ask {
-  position: relative;
-  margin-bottom: 20px;
 }
 
 span {
