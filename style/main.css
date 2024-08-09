@@ -84,10 +84,14 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  color: #707c87;
 }
 
+a:active,
+a:hover,
 a {
   text-decoration: none;
+  color: #707c87;
 }
 
 .wrapper_top {
@@ -167,7 +171,6 @@ a {
 .geoposition p {
   position: relative;
   margin: 20px 0px 0px 0px;
-  color: #707c87;
 }
 
 .service {
@@ -181,10 +184,10 @@ a {
 }
 
 span {
-  color: #707C87;
+  color: #707c87;
   white-space: nowrap;
 }
- 
+
 .support {
   position: relative;
   margin: 45px 66px 118px 0px;
