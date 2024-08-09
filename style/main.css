@@ -137,29 +137,104 @@ a {
   background-color: #f6f7ff;
 }
 
+.geoposition img {
+  position: relative;
+  margin: 7px 11px 2px 0px;
+}
 
 .geoposition {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   position: relative;
+  margin: 50px 40px 87px 98px;
 }
 
 .logo2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.service {
+.logo2 h2 {
+  position: relative;
+  margin: 0px 0px 2px 0px;
+  color: #1f1e25;
+}
 
+.geoposition p {
+  position: relative;
+  margin: 20px 0px 0px 0px;
+  color: #707c87;
+}
+
+.service {
+  position: relative;
+  margin: 95px 89px 60px 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #707c87;
+  white-space: nowrap;
+}
+
+.service_services {
+  position: relative;
+  margin-bottom: 20px;
+}
+.service_converter {
+  position: relative;
+  margin-bottom: 20px;
+}
+.service_contacts {
+  position: relative;
+  margin-bottom: 20px;
+}
+.service_ask {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.support {
+  position: relative;
+  margin: 60px 66px 118px 0px;
+}
+
+.support img {
+  position: relative;
+  margin: 0px 9px 0px 0px;
+}
+
+.support p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #1f1e25;
+}
+
+.call {
+  position: relative;
+  margin: 60px 72px 115px 0px;
+}
+
+.call img {
+  position: relative;
+  margin: 0px 17px 0px 0px;
+}
+
+.call p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 .icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -220,8 +295,8 @@ a {
 
 .bottom_container_text {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: flex-start;
   position: relative;
   margin: 165px 0px 147px 250px;
 }
